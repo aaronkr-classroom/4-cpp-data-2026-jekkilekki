@@ -1,3 +1,6 @@
+// 전체 코드:
+// https://github.com/aaronkr-classroom/5-data-containers-jekkilekki/tree/main/Chp4/
+
 // main.cpp
 // 중간고사, 기말고사, 그리고 과제 점수 몇개를 받고
 // 마지막 평균 결과 점수를 계산하기.
