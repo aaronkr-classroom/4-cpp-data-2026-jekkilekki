@@ -19,11 +19,11 @@ double grade(double mid, double fin, const vector<double>& hw) {
 }
 
 // 계산하는 grade() 함수
-double grade(double midterm, double final, double homework) {
-	return midterm * 0.2 + final * 0.4 + homework * 0.4;
+double grade(double midterm, double fin, double homework) {
+	return midterm * 0.2 + fin * 0.4 + homework * 0.4;
 }
 
 // Student_info 계산
 double grade(const Student_info& s) {
-	return grade(s.midterm, s.final, s.homework);
+	return grade(s.midterm, s.fin, s.homework);
 }

@@ -6,6 +6,8 @@
 
 #include <vector>
 
+using std::vector; // 추가
+
 double median(vector<double>);
 
 #endif

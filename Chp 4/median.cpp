@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <stdexcept>
+#include "median.h"
 
 using namespace std;
 
@@ -13,7 +14,7 @@ double median(vector<double> vec) {
 
 	if (size == 0) {
 		throw domain_error("Median of empty vector!");
-		return 1;
+		// return 1; // Unreachable - domain_error already does this
 	}
 
 	sort(vec.begin(), vec.end());

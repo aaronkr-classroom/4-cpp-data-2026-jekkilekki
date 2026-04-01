@@ -14,7 +14,7 @@ using namespace std;
 struct Student_info {
 	// 속성
 	string name;
-	double midterm, final;
+	double midterm, fin;
 	vector<double> homework;
 };
 
